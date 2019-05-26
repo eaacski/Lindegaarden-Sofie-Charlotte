@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: old-standard, serif;
+font-style: normal;
+font-weight: 400;
+    
+    color: black;
+    font-style: normal;
+    font-size: 2.5em;
+
+}
+
+
+.bigphoto {
+    background-image: url(../images/desktop-baggrundsbillede.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+
+}
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fcf7f7;
+    color: #424142;
+}
+
+.logo {
+    height: 120px;
+}
+
+.logo_typeface {
+    max-height: 100px;
+    width: 60%;
+    margin-left: 10px;
+}
+
+.burger {
+    height: 40px;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.laptop-menu {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: raleway, sans-serif;
+font-style: normal;
+font-weight: 400;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menuentry {
+    border-bottom: solid 1px #5a3c32;
+    text-align: center;
+    padding-top: 5px;
+    color: #5a3c32;
+
+}
+
+.menuentry a {
+    font-family: old-standard, serif;
+font-style: normal;
+font-weight: 400;
+    font-size: 2em;
+}
+
+p {
+    font-family: raleway, sans-serif;
+font-style: normal;
+font-weight: 400;
+    color: black;
+
+}
+.galleri{
+    width: 100%;
+    margin: 10px;
+    
+}
+.galleri-blog{
+    width: 100%;
+    margin-top: 55px;
+}
+/* footer content */
+
+footer {
+    background-color: #424142;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+	
+}
+.ikon-footer {
+    margin-top: 50px;
+	max-width: 30px;
+	max-height: 30px;
+	
+    }
+
+.custom-row {
+    margin-bottom: 24px;
+}
+.kontakt-info{
+    display: flex;
+    justify-content: space-around;    
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-size:1em;
+        
+}
+.tekst-footer {
+    color: #fcf7f7;
+}
+.aabningstider-footer{
+        color: #fcf7f7;
+    margin-top: 50px;
+
+}
+.video {
+    width: 100%;
+    height: 400px;
+}
+.telefon{
+    color: #fcf7f7;
+}
+@media only screen and (max-width: 700px) {
+
+/* Main content */
+main {
+    margin: 0 5px 0 5px;
+
+}
+
+/*Forside*/
+/*.forsideindhold{
+    display: flex;
+    justify-content: space-around;
+    
+}*/
+.tekstindhold{
+    
+}
+
+.nyheder{
+    
+}
+
+.fb-page{
+    width:100%;
+}
+
+.panorama-gaard{
+    width: 100%;
+    
+}
+#lindegaarden {
+	width: 100%;
+	
+}
+
+/*Inspiration*/
+.inspiration{
+    
+}
+.inspiration-tekst{
+    
+}
+
+video-inspiration{
+    
+}
+
+/*Blog*/
+#blog{
+    
+}
+.blog-1{
+    
+}
+.blog-2{
+    
+}
+.blog-3{
+    
+}
+
+/*Om*/
+.om{
+    
+}
+.om-lindegaarden{
+    
+}
+.kontakt{
+    
+}
+.aabningstider{
+    
+}
+
+
+
+
+
+
+
+   
+    .forsideindhold{
+    padding: 5%;
+}
+    
+    .produktpic{
+        width: 100%;
+    }
+    
+
+
+    .artikel-katten{
+        padding: 5%;
+    }
+    
+#produkter-wrapper{
+    padding: 5%;
+}
+
+.forhandlere {
+       padding: 5%;
+
+    }
+
+    .om-perfect-fit {
+        padding: 5%;
+    }
+  }
+
+
+
+@media only screen and (min-width: 701px){
+    
+}
+/*Forside*/
+.forsideindhold{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.tekstindhold{
+    
+}
+
+.nyheder{
+    
+}
+
+.fb-page{
+    width:100%;
+}
+
+.panorama-gaard{
+    width: 100%;
+}
+#lindegaarden {
+	width: 100%;
+	
+}
+
+/*Inspiration*/
+.inspiration{
+    
+}
+.inspiration-tekst{
+    
+}
+.galleri{
+    
+}
+video-inspiration{
+    
+}
+
+/*Blog*/
+#blog{
+    
+}
+.blog-1{
+    
+}
+.blog-2{
+    
+}
+.blog-3{
+    
+}
+
+/*Om*/
+.om{
+    
+}
+.om-lindegaarden{
+    
+}
+.kontakt{
+    
+}
+.aabningstider{
+    
+}
+
+
+
+
+
+
+
+   
+    .forsideindhold{
+    padding: 5%;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    /* Header */
+    .bigphoto {
+        background-image: url(../images/desktop-baggrundsbillede.jpg);
+    }
+
+    #menu-toggle {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menuentry {
+        display: inline;
+        border: none;
+        
+    }
+
+    .menu {
+        margin-top: 75px;
+    }
+
+    .menuentry a {
+        margin: 60px;
+
+        font-size: 3em;
+    }
+    
+
+    
+    .burger-container {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .laptop-menu {
+        display: inline;
+
+    }
+
+    .laptop_logo {
+        height: 200px;
+        margin: 4px 0 0 40px;
+    }
+
+    .laptop_logo_typeface {
+        height: 60px;
+        margin-left: 10px;
+        margin-top: 30px
+    }
+
+    /* Main */
+    .forsideindhold {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .tekstindhold {
+        width: 40%;
+
+    }
+
+    
+    /* Inspiration */
+
+   
+
+    /* Blog */
+  
+    
+
+
+
+
+
+
+
+
+/*Om*/
+     
+
+   
+
+
+
+/* Footer */
+
+
+  
