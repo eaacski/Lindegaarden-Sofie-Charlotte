@@ -124,6 +124,16 @@ font-weight: 400;
     width: 100%;
     height: 400px;
 }
+.pil {
+    position: absolute;
+    justify-content: center;
+    bottom: 1%;
+    
+    width: 10%;
+}
+
+
+
 /* footer content */
 
 footer {
@@ -189,7 +199,7 @@ main {
 }
 
 .fb-page{
-    width:100%;
+    width:600px;
 }
 
 .panorama-gaard{
@@ -288,6 +298,12 @@ video-inspiration{
     display: flex;
     justify-content: space-around;
     
+}
+.pil {
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    width: 8%;
 }
 .tekstindhold{
     
@@ -434,7 +450,10 @@ video-inspiration{
         width: 40%;
 
     }
-
+.pil {
+   
+    width: 5%;
+}
     
     /* Inspiration */
 
