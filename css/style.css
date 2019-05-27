@@ -153,10 +153,15 @@ footer {
 }
 .tekst-footer {
     color: #fcf7f7;
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .aabningstider-footer{
         color: #fcf7f7;
     margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
 
 }
 
