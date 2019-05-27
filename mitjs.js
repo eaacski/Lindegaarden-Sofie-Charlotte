@@ -1,8 +1,3 @@
-
-document.getElementById("tilOverskrift").addEventListener("click", function(){
-    document.getElementById("overskrift").scrollIntoView(true);
-});
-
 /* Nedenstående script er lånt fra mobilefirst */
 function menuToggle() {
             var x = document.getElementById("menu-toggle");
@@ -12,6 +7,8 @@ function menuToggle() {
                 x.style.display = "block";
             }
         }
+
+
 
 /*Følgende script er lånt fra W3 Schools*/
 var slideIndex = 1;
@@ -31,6 +28,10 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+document.getElementById("tilOverskrift").addEventListener("click", function(){
+    document.getElementById("overskrift").scrollIntoView(true);
+});
 
 
 
