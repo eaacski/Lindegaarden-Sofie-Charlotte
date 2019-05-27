@@ -26,3 +26,25 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+
+
+function aktiverMultimedier(elementIdListe) {
+    for (var i=0; i < elementIdListe.length; i++) {
+       if (erSynlig(elementIdListe[i])) {
+           document.getElementById(AVIdListe[i]).play();
+       }
+        else{document.getElementById(AVIdListe[i]).pause();
+            }
+    }
+}
+
+var elementIdListe = ["overskrift"]
+
+window.addEventListener("scroll", function () {aktiverMultimedier(elementIdListe);
+});
+
+document.getElementById("tilOverskrift").addEventListener("click", function(){
+    document.getElementById("overskrift").scrollIntoView(true);
+});
+
