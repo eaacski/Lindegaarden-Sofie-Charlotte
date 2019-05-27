@@ -1,4 +1,9 @@
- /* Nedenstående script er lånt fra mobilefirst */
+
+document.getElementById("tilOverskrift").addEventListener("click", function(){
+    document.getElementById("overskrift").scrollIntoView(true);
+});
+
+/* Nedenstående script er lånt fra mobilefirst */
 function menuToggle() {
             var x = document.getElementById("menu-toggle");
             if (x.style.display === "block") {
@@ -29,22 +34,9 @@ function showDivs(n) {
 
 
 
-function aktiverMultimedier(elementIdListe) {
-    for (var i=0; i < elementIdListe.length; i++) {
-       if (erSynlig(elementIdListe[i])) {
-           document.getElementById(AVIdListe[i]).play();
-       }
-        else{document.getElementById(AVIdListe[i]).pause();
-            }
-    }
-}
 
-var elementIdListe = ["overskrift"]
 
-window.addEventListener("scroll", function () {aktiverMultimedier(elementIdListe);
-});
 
-document.getElementById("tilOverskrift").addEventListener("click", function(){
-    document.getElementById("overskrift").scrollIntoView(true);
-});
+
+
 
