@@ -26,7 +26,7 @@ font-weight: 400;
     height: 100vh;
     background-position: center;
     background-size: cover;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 
 }
 
@@ -113,7 +113,7 @@ font-weight: 400;
 
 .galleri{
     width: 100%;
-    margin: 10px;
+    margin-bottom: 30px;
     
 }
 .galleri-blog{
@@ -382,9 +382,9 @@ video-inspiration{
 
 
    
-    .forsideindhold{
+   /* .forsideindhold{
     padding: 5%;
-}
+}*/
 
 
 
@@ -446,14 +446,14 @@ video-inspiration{
     }
 
     /* Main */
-    .forsideindhold {
+    /*.forsideindhold {
         display: flex;
         justify-content: space-around;
         margin-top: 20px;
         margin-bottom: 20px;
 
     }
-
+*/
     .tekstindhold {
         width: 40%;
 
